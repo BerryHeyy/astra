@@ -1,8 +1,7 @@
 package io.github.berryheyy.astra.mixin;
 
-import io.github.berryheyy.astra.Astra;
 import io.github.berryheyy.astra.Reference;
-import io.github.berryheyy.astra.block.data.ItemModelGenerator;
+import io.github.berryheyy.astra.data.ItemModelGenerator;
 import net.minecraft.client.render.model.ModelLoader;
 import net.minecraft.client.render.model.json.JsonUnbakedModel;
 import net.minecraft.util.Identifier;

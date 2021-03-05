@@ -1,7 +1,6 @@
-package io.github.berryheyy.astra.block.registry;
+package io.github.berryheyy.astra.registry;
 
 import io.github.berryheyy.astra.block.fusionreactor.FusionReactorControllerBlock;
-import net.minecraft.block.Block;
 
 public class AstraBlocks {
 

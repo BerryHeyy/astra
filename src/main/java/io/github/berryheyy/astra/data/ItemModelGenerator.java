@@ -1,4 +1,4 @@
-package io.github.berryheyy.astra.block.data;
+package io.github.berryheyy.astra.data;
 
 import io.github.berryheyy.astra.Reference;
 import net.minecraft.client.render.model.json.JsonUnbakedModel;

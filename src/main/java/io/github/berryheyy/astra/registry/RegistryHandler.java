@@ -1,7 +1,7 @@
-package io.github.berryheyy.astra.block.registry;
+package io.github.berryheyy.astra.registry;
 
 import io.github.berryheyy.astra.Reference;
-import io.github.berryheyy.astra.block.data.ItemModelGenerator;
+import io.github.berryheyy.astra.data.ItemModelGenerator;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
