@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "astra:block/fusion_reactor_controller" }
+  }
+}
