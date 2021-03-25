@@ -12,7 +12,7 @@ import java.util.function.Supplier;
 
 public class AstraBlockEntities {
 
-    public static BlockEntityType<GasPumpUnitBlockEntity> GAS_PUMP_UNIT_BLOCK_ENTITY = register("gas_pump_unit", GasPumpUnitBlockEntity::new, AstraBlocks.FUSION_REACTOR_CONTROLLER);
+    public static BlockEntityType<?> GAS_PUMP_UNIT_BLOCK_ENTITY = register("gas_pump_unit", GasPumpUnitBlockEntity::new, AstraBlocks.GAS_PUMP_UNIT_BLOCK);
 
     private static <T extends BlockEntity> BlockEntityType<T> register(String name, Supplier<T> supplier, Block parentBlock) {
         return Registry.register(Registry.BLOCK_ENTITY_TYPE, new Identifier(Reference.MOD_ID, name),

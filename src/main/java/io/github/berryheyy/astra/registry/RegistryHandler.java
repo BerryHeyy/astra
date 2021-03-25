@@ -8,5 +8,6 @@ public class RegistryHandler {
 
         AstraBlockEntities.init();
 
+        AstraScreenHandlers.init();
     }
 }

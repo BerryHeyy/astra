@@ -19,7 +19,7 @@ public class AstraItems {
      * @param <T> Type of item to register
      * @return returns the registered block
      */
-    public static <T extends Item> T register(String name, T item) {
+    private static <T extends Item> T register(String name, T item) {
         ItemModelGenerator.registerItemModel(name);
         return Registry.register(Registry.ITEM, new Identifier(Reference.MOD_ID, name), item);
     }

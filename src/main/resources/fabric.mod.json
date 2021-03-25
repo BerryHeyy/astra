@@ -22,7 +22,7 @@
       "io.github.berryheyy.astra.Astra"
     ],
     "client": [
-      "io.github.berryheyy.astra.AstraClient"
+      "io.github.berryheyy.astra.client.AstraClient"
     ]
   },
   "mixins": [

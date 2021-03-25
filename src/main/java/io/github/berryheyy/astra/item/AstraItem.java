@@ -7,4 +7,6 @@ public class AstraItem extends Item {
     public AstraItem(Settings settings) {
         super(settings);
     }
+
+
 }
